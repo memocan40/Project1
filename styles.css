@@ -1,5 +1,6 @@
 /* MEMO Section1/header part goes under here */
 #title{position:relative;
+    max-width: 100%;
 }
 
     #logo{position:absolute;
@@ -17,7 +18,7 @@
 
         #nav{position:absolute;
         top:55px;
-        left:700px;
+        left:650px;
     
     }
             a{color: white;
