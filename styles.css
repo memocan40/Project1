@@ -104,7 +104,7 @@
     margin: 10vh auto;
     display: grid;
     place-items: center;
-    background-image: url("photoshop/design-assets/bgk-middle.png");
+    background-image: url("./photoshop/design-assets/bgk-middle.png");
 }
 
 .image-container {
