@@ -1,6 +1,6 @@
 /* MEMO Section1/header part goes under here */
 #title{position:relative;
-    max-width: 100%;
+    max-width: 100vw;
 }
 
     #logo{position:absolute;
@@ -82,9 +82,40 @@
             
 
 /* DIEGO Section2 goes under here */
+.sec2 {
+    width: 80%;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+}
 
+.sec2-img {
+    margin-left: 32%;
+    margin-right: 3%;
+}
+
+.sec2-content {
+    margin-right: 10%;
+}
 /* DIEGO Section3 goes under here */
+.sec3 {
+    height: 550px;
+    /* max-width: 1600px; */
+    margin: 10vh auto;
+    display: grid;
+    place-items: center;
+    background-image: url("./photoshop/design-assets/bgk-middle.png");
+}
 
+.image-container {
+    position: absolute;
+}
+
+.video-control {
+    z-index: 10;
+    text-align: center;
+    color: white;
+}
 /* STEFAN Section4 goes under here */
 .sec4 {
     display: flex;
@@ -134,7 +165,7 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    background: url("/photoshop/design-assets/bgk-header.png") no-repeat;
+    background: url("./photoshop/design-assets/bgk-header.png") no-repeat;
     background-position: center;
     color: white;
     text-align: center;
@@ -156,16 +187,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 .sec5-main-content {
     border: 1px solid gray;
     margin: 10px;
     padding: 0;
+    width: 20%;
 }
 .sec5-main img {
-    width: 220px;
-    height: 230px;
+    width: 100%;
+    height: 200px;
     background-color: white;
     margin: 0;
 }
