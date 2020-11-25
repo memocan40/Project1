@@ -85,9 +85,76 @@
 /* DIEGO Section3 goes under here */
 
 /* STEFAN Section4 goes under here */
+.sec4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.sec4-top {
+    width: 100%;
+}
+.sec4-top:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    padding-top: 15px;
+    border-bottom: 2px solid aqua;
+}
+.sec4-main {
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.sec4-main-content {
+    width: 25%;
+    padding: 10px 20px;
+    margin: 0;
+}
 
 /* STEFAN Section5 goes under here */
-
+.sec5 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: url("/photoshop/design-assets/bgk-middle.png");
+    color: white;
+    text-align: center;
+}
+.sec5-top {
+    width: 100%;
+}
+.sec5-top:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    padding-top: 0;
+    border-bottom: 2px solid aqua;
+    margin-bottom: 30px;
+}
+.sec5-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.sec5-main-content {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 0;
+}
+.sec5-main img {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 0;
+}
 /* WALDEMAR Section6 goes under here */
 
 /* WALDEMAR Section7 goes under here */
