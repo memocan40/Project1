@@ -91,6 +91,7 @@
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+    padding: 50px;
 }
 .sec4-top {
     width: 100%;
@@ -101,7 +102,7 @@
     margin: 0 auto;
     width: 5%;
     padding-top: 15px;
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid rgba(0, 255, 255, 0.25);
 }
 .sec4-main {
     display: flex;
@@ -111,12 +112,21 @@
     width: 80%;
 }
 .sec4-main-content {
+    align-self: baseline;
     width: 25%;
-    padding: 2rem;
-    margin: auto;
+    padding: 30px;
+    margin: 0;
 }
-.sec4-main-content:nth-child(5){
+.sec4-main-content:nth-of-type(3n-1){
+    border-left: 1px solid rgba(128, 128, 128, 0.25);
+    border-right: 1px solid rgba(128, 128, 128, 0.25);
 }
+.sec4-main-content:nth-child(1),
+.sec4-main-content:nth-child(2),
+.sec4-main-content:nth-child(3){
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+
 
 /* STEFAN Section5 goes under here */
 .sec5 {
@@ -124,9 +134,11 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    background: url("/photoshop/design-assets/bgk-middle.png");
+    background: url("/photoshop/design-assets/bgk-header.png") no-repeat;
+    background-position: center;
     color: white;
     text-align: center;
+    padding: 50px;
 }
 .sec5-top {
     width: 100%;
@@ -137,7 +149,7 @@
     margin: 0 auto;
     width: 5%;
     padding-top: 0;
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid rgba(0, 255, 255, 0.25);
     margin-bottom: 30px;
 }
 .sec5-main {
@@ -152,14 +164,29 @@
     padding: 0;
 }
 .sec5-main img {
-    width: 200px;
-    height: 250px;
+    width: 220px;
+    height: 230px;
     background-color: white;
     margin: 0;
 }
 .sec5-main h4 {
     margin-bottom: 0;
     padding-bottom: 0;
+    font-weight: bold;
+}
+.sec5-main p {
+    margin-top: 5px;
+
+}
+.sec5-bottom {
+    padding-top: 50px;
+}
+.sec5-button {
+    border-radius: 2px;
+    border: 1px solid aqua;
+    color: aqua;
+    background-color: transparent;
+    padding: 10px 15px;
     font-weight: bold;
 }
 /* WALDEMAR Section6 goes under here */
