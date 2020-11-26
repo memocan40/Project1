@@ -1,26 +1,32 @@
 /* MEMO Section1/header part goes under here */
-#title{position:relative;
-    max-width: 100vw;
+.title{background-image:url("./photoshop/design-assets/bgk-header.png");
+    width: 100vw;
+    height: auto;
 }
+.leftl{display: flex;
+justify-content: left;
+;}
 
-    #logo{position:absolute;
-    top:30px;
-    left:100px;
-    }
+.topbar{display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+margin: auto;}
 
-        #tajam{position:absolute;
-        top:30px;
-    left:150px;
+    
+    
+    
+
+        #tajam{
     color: rgb(86, 160, 160);
     font-family:serif;
     font-weight: 100;
         }
 
-        #nav{position:absolute;
-        top:55px;
-        left:650px;
+        
     
-    }
+    
+    
             a{color: white;
             text-decoration: none;
             margin:10px;
@@ -36,16 +42,14 @@
                 
                 display:flex;
                 justify-content: center;
-                position: relative;
-                bottom:400px;
+                
                 color: white;
 
             }
 
                 #line{display: flex;
                     justify-content: center;
-                    position: relative;
-                    bottom: 400px;
+                   
                     color:aqua;
 
 
@@ -55,21 +59,27 @@
                         color: white;
                         display: flex;
                         justify-content: center;
-                        position: relative;
-                        bottom: 600px;
-                        padding:200px;
+                        
+                        width: 80%;
+                        margin:auto;
+                        margin-bottom:5em;
+                        margin-top:3em;
+                        
+                        
                     
                         
                     }
 
                       #button{ display: block;
-                        margin-left:auto;
-                        margin-right:auto;
+                        margin-left: auto;
+                        margin-right: auto;
                         justify-content: center;
                         align-items: center;
-                        position: relative;
-                        bottom:750px;
-                        padding: 10px;
+                        
+                    
+                        
+                        
+                        padding:10px;
                         background-color:transparent;
                         color: aqua;
                         border-color: aqua;
@@ -77,8 +87,15 @@
                         font-family: Arial, Helvetica, sans-serif;
                         border: solid 1px;
                         border-radius: 4px;
-                        
-                            }
+                      }
+
+                      .down{padding-bottom:5em;}
+
+
+                      
+                       
+            
+                    
             
 
 /* DIEGO Section2 goes under here */
@@ -97,6 +114,19 @@
 .sec2-content {
     margin-right: 10%;
 }
+
+.sec2-content button {
+    padding:10px;
+    background-color:transparent;
+    color: aqua;
+    border-color: aqua;
+    font-weight: border;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px;
+    border-radius: 4px;
+    
+    }
+
 /* DIEGO Section3 goes under here */
 .sec3 {
     height: 550px;
@@ -144,7 +174,7 @@
 }
 .sec4-main-content {
     align-self: baseline;
-    width: 25%;
+    width: 20%;
     padding: 30px;
     margin: 0;
 }
@@ -194,8 +224,10 @@
     margin: 10px;
     padding: 0;
     width: 20%;
+    height: auto;
+    min-width: 200px;
 }
-.sec5-main img {
+.sec5-img {
     width: 100%;
     height: 200px;
     background-color: white;
@@ -212,6 +244,7 @@
 }
 .sec5-bottom {
     padding-top: 50px;
+    width: 100%;
 }
 .sec5-button {
     border-radius: 2px;
