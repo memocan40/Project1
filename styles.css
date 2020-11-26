@@ -150,7 +150,7 @@
 }
 .sec4-main-content {
     align-self: baseline;
-    width: 25%;
+    width: 20%;
     padding: 30px;
     margin: 0;
 }
@@ -200,8 +200,10 @@
     margin: 10px;
     padding: 0;
     width: 20%;
+    height: auto;
+    min-width: 200px;
 }
-.sec5-main img {
+.sec5-img {
     width: 100%;
     height: 200px;
     background-color: white;
@@ -218,6 +220,7 @@
 }
 .sec5-bottom {
     padding-top: 50px;
+    width: 100%;
 }
 .sec5-button {
     border-radius: 2px;
