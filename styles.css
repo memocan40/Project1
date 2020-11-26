@@ -1,26 +1,32 @@
 /* MEMO Section1/header part goes under here */
-#title{position:relative;
+.title{background-image:url("./photoshop/design-assets/bgk-header.png");
     width: 100vw;
+    height: auto;
 }
+.leftl{display: flex;
+justify-content: left;
+;}
 
-    #logo{position:absolute;
-    top:30px;
-    left:100px;
-    }
+.topbar{display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+margin: auto;}
 
-        #tajam{position:absolute;
-        top:30px;
-    left:150px;
+    
+    
+    
+
+        #tajam{
     color: rgb(86, 160, 160);
     font-family:serif;
     font-weight: 100;
         }
 
-        #nav{position:absolute;
-        top:55px;
-        left:650px;
+        
     
-    }
+    
+    
             a{color: white;
             text-decoration: none;
             margin:10px;
@@ -36,18 +42,14 @@
                 
                 display:flex;
                 justify-content: center;
-                position: relative;
-                right: 380px;
-                top: 60px;
+                
                 color: white;
 
             }
 
                 #line{display: flex;
                     justify-content: center;
-                    position: relative;
-                    right: 360px;
-                    top: 60px;
+                   
                     color:aqua;
 
 
@@ -57,12 +59,13 @@
                         color: white;
                         display: flex;
                         justify-content: center;
-                        position: relative;
-                        right:330px;
-                        top: 60px;
-                
                         
-                        padding:50px;
+                        width: 80%;
+                        margin:auto;
+                        margin-bottom:5em;
+                        margin-top:3em;
+                        
+                        
                     
                         
                     }
@@ -72,9 +75,10 @@
                         margin-right: auto;
                         justify-content: center;
                         align-items: center;
-                        position: relative;
-                        right: 350px;
-                        top: 60px;
+                        
+                    
+                        
+                        
                         padding:10px;
                         background-color:transparent;
                         color: aqua;
@@ -85,7 +89,10 @@
                         border-radius: 4px;
                       }
 
-                      .buttona{color: aqua;}
+                      .down{padding-bottom:5em;}
+
+
+                      
                        
             
                     
