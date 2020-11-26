@@ -1,6 +1,6 @@
 /* MEMO Section1/header part goes under here */
 #title{position:relative;
-    max-width: 100vw;
+    width: 100vw;
 }
 
     #logo{position:absolute;
@@ -37,7 +37,8 @@
                 display:flex;
                 justify-content: center;
                 position: relative;
-                bottom:400px;
+                right: 380px;
+                top: 60px;
                 color: white;
 
             }
@@ -45,7 +46,8 @@
                 #line{display: flex;
                     justify-content: center;
                     position: relative;
-                    bottom: 400px;
+                    right: 360px;
+                    top: 60px;
                     color:aqua;
 
 
@@ -56,8 +58,11 @@
                         display: flex;
                         justify-content: center;
                         position: relative;
-                        bottom: 600px;
-                        padding:200px;
+                        right:330px;
+                        top: 60px;
+                
+                        
+                        padding:50px;
                     
                         
                     }
@@ -68,7 +73,8 @@
                         justify-content: center;
                         align-items: center;
                         position: relative;
-                        bottom:750px;
+                        right: 350px;
+                        top: 60px;
                         padding: 10px;
                         background-color:transparent;
                         color: aqua;
