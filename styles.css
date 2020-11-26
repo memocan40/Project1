@@ -68,14 +68,14 @@
                     }
 
                       #button{ display: block;
-                        margin-left:auto;
-                        margin-right:auto;
+                        margin-left: auto;
+                        margin-right: auto;
                         justify-content: center;
                         align-items: center;
                         position: relative;
                         right: 350px;
                         top: 60px;
-                        padding: 10px;
+                        padding:10px;
                         background-color:transparent;
                         color: aqua;
                         border-color: aqua;
@@ -83,8 +83,12 @@
                         font-family: Arial, Helvetica, sans-serif;
                         border: solid 1px;
                         border-radius: 4px;
-                        
-                            }
+                      }
+
+                      .buttona{color: aqua;}
+                       
+            
+                    
             
 
 /* DIEGO Section2 goes under here */
