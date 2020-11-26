@@ -27,7 +27,7 @@ margin: auto;}
     
     
     
-            a{color: aqua;
+            a{color: white;
             text-decoration: none;
             margin:10px;
             font-family: serif;
@@ -89,6 +89,7 @@ margin: auto;}
                         border: solid 1px;
                         border-radius: 4px;
                       }
+                      .buttona{color: aqua;}
 
                       .down{padding-bottom:5em;}
 
