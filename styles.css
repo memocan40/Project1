@@ -4,8 +4,8 @@ body {
 /* MEMO Section1/header part goes under here */
 .title {
   background-image: url("./photoshop/design-assets/bgk-header.png");
-  width: 100vw;
-  height: auto;
+  
+  
 }
 .leftl {
   display: flex;
