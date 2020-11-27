@@ -1,11 +1,17 @@
 body {
   max-width: 1400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
+/*TEXT STYLES*/
+h1,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 /* MEMO Section1/header part goes under here */
 .title {
   background-image: url("./photoshop/design-assets/bgk-header.png");
-  
-  
 }
 .leftl {
   display: flex;
@@ -30,8 +36,8 @@ a {
   color: white;
   text-decoration: none;
   margin: 10px;
-  font-family: serif;
-  font-size: large;
+  text-transform: uppercase;
+  font-size: small;
 }
 
 a:hover {
