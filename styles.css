@@ -7,6 +7,7 @@ body {
 h1,
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
 }
 h1 {
   font-size: 25px;
@@ -113,8 +114,11 @@ a:hover {
 }
 
 .sec2-img {
-  margin-left: 15%;
+  margin-left: 20%;
   margin-right: 3%;
+}
+.sec2-content h3 {
+  text-align: left;
 }
 
 .sec2-content button {
@@ -315,6 +319,12 @@ a:hover {
   display: flex;
   justify-content: row;
 }
+
+.help-tc-p {
+  display: flex;
+  justify-content: space-between;
+}
+
 .help-tc-p a {
   font-size: 0.8em;
 }
@@ -338,9 +348,17 @@ a:hover {
 .address-container,
 .tel-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .footer-content p {
   padding-left: 10px;
+}
+
+.footer-content img {
+  margin-top: 1em;
+}
+
+.subscribe-container {
+  display: flex;
 }
