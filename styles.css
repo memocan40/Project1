@@ -152,8 +152,7 @@ a:hover {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 5%;
-  padding-top: 15px;
+  width: 4%;
   border-bottom: 2px solid rgba(0, 255, 255, 0.25);
 }
 .sec4-main {
@@ -162,6 +161,7 @@ a:hover {
   align-content: baseline;
   flex-wrap: wrap;
   width: 80%;
+  padding-top: 40px;
 }
 .sec4-main-content {
   align-self: baseline;
@@ -198,7 +198,7 @@ a:hover {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 5%;
+  width: 4%;
   padding-top: 0;
   border-bottom: 2px solid rgba(0, 255, 255, 0.25);
   margin-bottom: 30px;
