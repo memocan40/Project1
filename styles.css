@@ -254,3 +254,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+
+.form li {
+  padding: 10px;
+}
