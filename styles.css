@@ -54,34 +54,11 @@ a:hover {
   display: flex;
   justify-content: center;
 
-<<<<<<< HEAD
-                      #button{ display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                        justify-content: center;
-                        align-items: center;
-                        
-                        
-                    
-                        
-                        
-                        padding:10px;
-                        background-color:transparent;
-                        color: aqua;
-                        border-color: aqua;
-                        font-weight: border;
-                        font-family: Arial, Helvetica, sans-serif;
-                        border: solid 1px;
-                        border-radius: 4px;
-                      }
-                      .buttona{color: aqua;}
-=======
   width: 80%;
   margin: auto;
   margin-bottom: 5em;
   margin-top: 3em;
 }
->>>>>>> efc099f0bb42b909b4c8a598a1238615852f74d0
 
 #button {
   display: block;
@@ -259,27 +236,21 @@ a:hover {
 }
 /* WALDEMAR Section6 goes under here */
 
-<<<<<<< HEAD
 .section6 {
-    display: flex;
-    justify-content: space-between;
-    /*align-content: center;
+  display: flex;
+  justify-content: space-between;
+  /*align-content: center;
     flex-wrap: wrap;*/
-    background: white
-    background-position: center;
-    color: white;
-    /*text-align: center;
+  background: white;
+  background-position: center;
+  color: white;
+  /*text-align: center;
     padding: 50px;*/
 }
 
-
-
 /* WALDEMAR Section7 goes under here */
 .section7 {
-    background-image:url("./photoshop/design-assets/bgk-footer.png");
-    display: flex;
-    justify-content: space-between;
+  background-image: url("./photoshop/design-assets/bgk-footer.png");
+  display: flex;
+  justify-content: space-between;
 }
-=======
-/* WALDEMAR Section7 goes under here */
->>>>>>> efc099f0bb42b909b4c8a598a1238615852f74d0
