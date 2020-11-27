@@ -258,4 +258,23 @@ margin: auto;}
 }
 /* WALDEMAR Section6 goes under here */
 
+.section6 {
+    display: flex;
+    justify-content: space-between;
+    /*align-content: center;
+    flex-wrap: wrap;*/
+    background: white
+    background-position: center;
+    color: white;
+    /*text-align: center;
+    padding: 50px;*/
+}
+
+
+
 /* WALDEMAR Section7 goes under here */
+.section7 {
+    background-image:url("./photoshop/design-assets/bgk-footer.png");
+    display: flex;
+    justify-content: space-between;
+}
