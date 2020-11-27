@@ -246,18 +246,37 @@ a:hover {
     flex-wrap: wrap;*/
   background: white;
   background-position: center;
-  color: white;
+  color: black;
   /*text-align: center;
     padding: 50px;*/
+}
+.form {
+  display: flex;
+  justify-content: flex-start;
+}
+.form li {
+  padding: 10px;
 }
 
 /* WALDEMAR Section7 goes under here */
 .section7 {
   background-image: url("./photoshop/design-assets/bgk-footer.png");
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  height: 400px;
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
-
-.form li {
-  padding: 10px;
+.logo-tajam {
+  display: flex;
+  justify-content: row;
+}
+.help-tc-p a {
+  font-size: 0.8em;
+}
+.footer-text-left .logo-tajam a {
+  display: flex;
+  align-items: flex-end;
 }
