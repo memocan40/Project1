@@ -1,3 +1,6 @@
+body {
+  max-width: 1400px;
+}
 /* MEMO Section1/header part goes under here */
 .title {
   background-image: url("./photoshop/design-assets/bgk-header.png");
