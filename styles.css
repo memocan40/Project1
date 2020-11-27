@@ -144,7 +144,7 @@ a:hover {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 .sec4-top {
   width: 100%;
