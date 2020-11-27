@@ -280,6 +280,7 @@ a:hover {
   background-position: center;
   color: black;
   width: 80%;
+  margin: auto;
   /*text-align: center;
     padding: 50px;*/
 }
@@ -300,15 +301,15 @@ a:hover {
   width: 100%;
 }
 
+.table {
+  padding: 50px;
+}
+
 /* WALDEMAR Section7 goes under here */
 .section7 {
   background-image: url("./photoshop/design-assets/bgk-footer.png");
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   color: white;
   padding-top: 50px;
-  padding-left: 20%;
-  padding-right: 20%;
 }
 .logo-tajam {
   display: flex;
@@ -320,4 +321,26 @@ a:hover {
 .footer-text-left .logo-tajam a {
   display: flex;
   align-items: flex-end;
+}
+
+.footer-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  margin: 10px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+.address-container,
+.tel-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-content p {
+  padding-left: 10px;
 }
