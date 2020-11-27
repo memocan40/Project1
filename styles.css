@@ -1,11 +1,17 @@
 body {
   max-width: 1400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
+/*TEXT STYLES*/
+h1,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 /* MEMO Section1/header part goes under here */
 .title {
   background-image: url("./photoshop/design-assets/bgk-header.png");
-  width: 100vw;
-  height: auto;
 }
 .leftl {
   display: flex;
@@ -30,8 +36,8 @@ a {
   color: white;
   text-decoration: none;
   margin: 10px;
-  font-family: serif;
-  font-size: large;
+  text-transform: uppercase;
+  font-size: small;
 }
 
 a:hover {
@@ -110,6 +116,7 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
   border: solid 1px;
   border-radius: 4px;
+  font-weight: bold;
 }
 
 /* DIEGO Section3 goes under here */
@@ -137,7 +144,7 @@ a:hover {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 .sec4-top {
   width: 100%;
@@ -146,8 +153,7 @@ a:hover {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 5%;
-  padding-top: 15px;
+  width: 4%;
   border-bottom: 2px solid rgba(0, 255, 255, 0.25);
 }
 .sec4-main {
@@ -156,6 +162,7 @@ a:hover {
   align-content: baseline;
   flex-wrap: wrap;
   width: 80%;
+  padding-top: 40px;
 }
 .sec4-main-content {
   align-self: baseline;
@@ -192,7 +199,7 @@ a:hover {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 5%;
+  width: 4%;
   padding-top: 0;
   border-bottom: 2px solid rgba(0, 255, 255, 0.25);
   margin-bottom: 30px;
